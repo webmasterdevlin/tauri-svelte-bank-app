@@ -1,4 +1,15 @@
-# Svelte-Kit + Vite
+# Bank desktop application
+
+## Technologies
+- Tauri for cross platform desktop application development
+- Svelte-kit, a Svelte metaframework
+- Vite for fast HMR
+- TypeScript
+- Tailwind CSS for CSS class utilities
+- Prisma as ORM
+- SQLite as the database
+- Vitest for test runner
+
 
 ### Clone the app
 ```sh
