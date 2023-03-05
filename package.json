@@ -1,0 +1,49 @@
+{
+  "name": "tauri-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "tauri": "tauri",
+    "tauri.dev": "tauri dev",
+    "test.unit": "vitest",
+    "test.unit.watch": "vitest watch",
+    "test.unit.converage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.2.0",
+    "axios": "^1.3.4",
+    "date-fns": "^2.29.3"
+  },
+  "devDependencies": {
+    "@prisma/client": "^4.10.1",
+    "@sveltejs/adapter-static": "^1.0.6",
+    "@sveltejs/kit": "^1.3.10",
+    "@tauri-apps/cli": "^1.2.3",
+    "@testing-library/dom": "^9.0.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/testing-library__jest-dom": "^5.14.5",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "@vitest/coverage-c8": "^0.29.1",
+    "@vitest/ui": "^0.29.1",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-svelte": "^2.19.1",
+    "jsdom": "^21.1.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
+    "prisma": "^4.10.1",
+    "svelte": "^3.55.1",
+    "svelte-check": "^3.0.3",
+    "tailwindcss": "^3.2.7",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "vitest": "^0.29.1"
+  }
+}
